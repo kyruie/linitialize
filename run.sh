@@ -15,7 +15,13 @@ vi +BundleInstall +qall
 git clone https://github.com/erikw/tmux-powerline ~/.tmux-powerline
 
 # create .tmux.conf
+#
 cat tmux.conf > ~/.tmux.conf
+
+# set default tmux-powerline settgins
+#
+~/.tmux-powerline/generate_rc.sh
+mv ~/.tmux-powerlinerc.default ~/.tmux-powerlinerc
 
 # install powerline-bash
 #
