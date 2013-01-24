@@ -31,7 +31,7 @@ if [[ ! `cat ~/.bashrc | grep _update_ps1` ]]; then
 echo '
 function _update_ps1()
 {
-	export PS1="$(~/.powerline-bash/powerline-shell.py $?)"
+	export PS1="$(~/.powerline-shell/powerline-shell.py $?)"
 }
 
 export PROMPT_COMMAND="_update_ps1"
